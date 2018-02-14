@@ -1,0 +1,14 @@
+{
+  "name": "Learning-vue-basics",
+  "version": "1.0.0",
+  "description": "Using the vuejs docs as guide",
+  "keywords": ["vuejs"],
+  "homepage": "https://codesandbox.io/s/m4mq92vmlx",
+  "main": "index.js",
+  "dependencies": {
+    "axios": "0.17.1",
+    "lodash": "4.13.1",
+    "vue": "2.5.2",
+    "vue-router": "3.0.1"
+  }
+}

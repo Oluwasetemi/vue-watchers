@@ -1,0 +1,15 @@
+<div id="watch-example">
+	<p>
+		Ask a yes/no question:
+		<input v-model="question">
+	</p>
+	<p>{{ answer }}</p>
+  <br/>
+  <h3>To do List</h3>
+  <todo-item 
+    v-for="item in groceryList"
+	 v-bind:todo="item"
+    v-bind:key="item.id">
+  </todo-item>
+  
+</div>
